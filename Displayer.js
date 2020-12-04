@@ -1,6 +1,8 @@
 import React from 'react'
 
-    const Displayer = ({count}) => {
-    return <div>Counter={count}</div> 
+ 
+const Displayer = ({number}) => {
+    return <div>Counter={number}</div> 
 }   
 export default Displayer      
+ 
